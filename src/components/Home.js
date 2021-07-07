@@ -14,6 +14,7 @@ const Search = styled.div``;
 const SearchIcon = styled.div``;
 const SearchInput = styled.input``;
 const MicIcon = styled.div``;
+const ButtonSection = styled.div``;
 
 const Home = () => {
 	return (
@@ -60,6 +61,10 @@ const Home = () => {
 						</MicIcon>
 					</Search>
 				</Form>
+				<ButtonSection>
+					<button>Google Search</button>
+					<button>I'm Feeling Lucky</button>
+				</ButtonSection>
 			</SearchSection>
 		</Container>
 	)
