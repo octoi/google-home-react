@@ -20,7 +20,13 @@ const LogoSection = styled.div`
 	}
 `
 
-const SearchSection = styled.div``;
+const SearchSection = styled.div`
+	padding: 20px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+`;
+
 const Form = styled.form``;
 const Search = styled.div``;
 const SearchIcon = styled.div``;
