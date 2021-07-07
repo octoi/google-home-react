@@ -1,10 +1,11 @@
 import React from 'react'
+import { CenterContainer } from '../styles/center'
 
 const ImagePage = () => {
 	return (
-		<div>
+		<CenterContainer>
 			<h2>Image Page</h2>
-		</div>
+		</CenterContainer>
 	)
 }
 
