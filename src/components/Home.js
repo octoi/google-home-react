@@ -13,6 +13,11 @@ import {
 const Home = () => {
 	const [query, setQuery] = useState('');
 
+	const submitForm = (e) => {
+		e.preventDefault();
+		window.location.href = `https://www.google.com/search?q=${query}`;
+	}
+
 	return (
 		<Container>
 			<LogoSection>
@@ -22,9 +27,7 @@ const Home = () => {
 				/>
 			</LogoSection>
 			<SearchSection>
-				<form onSubmit={(e) => {
-					e.preventDefault();
-				}} method='GET' role='search'>
+				<form onSubmit={submitForm} method='GET' role='search'>
 					<Search>
 						<SearchIcon>
 							<svg
@@ -35,7 +38,7 @@ const Home = () => {
 								<path d='M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z' />
 							</svg>
 						</SearchIcon>
-						<SearchInput type='text' />
+						<SearchInput type='text' value={query} onChange={(e) => setQuery(e.target.value)} />
 						<MicIcon>
 							<svg
 								focusable='false'
@@ -60,8 +63,8 @@ const Home = () => {
 					</Search>
 				</form>
 				<ButtonSection>
-					<button>Google Search</button>
-					<button>I'm Feeling Lucky</button>
+					<button onClick={submitForm}>Google Search</button>
+					<button onClick={submitForm}>I'm Feeling Lucky</button>
 				</ButtonSection>
 			</SearchSection>
 		</Container>
