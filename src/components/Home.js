@@ -28,7 +28,20 @@ const SearchSection = styled.div`
 `;
 
 const Form = styled.form``;
-const Search = styled.div``;
+
+const Search = styled.div`
+	display: flex;
+  align-items: center;
+  padding: 0px 14px;
+  background: #fff;
+  border: 1px solid #dfe1e5;
+  box-shadow: none;
+  border-radius: 24px;
+  z-index: 3;
+  height: 44px;
+  margin: 0 auto;
+  max-width: 584px;
+`;
 const SearchIcon = styled.div``;
 const SearchInput = styled.input``;
 const MicIcon = styled.div``;
