@@ -58,7 +58,25 @@ const SearchIcon = styled.div`
 
 const SearchInput = styled.input``;
 
-const MicIcon = styled.div``;
+const MicIcon = styled.div`
+	display: flex;
+	cursor: pointer;
+	align-items: center;
+	border: 0;
+	background: transparent;
+	outline: none;
+	padding: 0 8px;
+	width: 40px;
+	line-height: 44px;
+	height: 44px;
+
+	svg {
+		height: 24px;
+		width: 24px;
+		vertical-align: middle;
+	}
+`;
+
 const ButtonSection = styled.div``;
 
 const Home = () => {
