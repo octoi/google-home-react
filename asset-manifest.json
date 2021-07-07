@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/google-home-react/static/css/main.f7c1998c.chunk.css",
+    "main.js": "/google-home-react/static/js/main.515f9641.chunk.js",
+    "main.js.map": "/google-home-react/static/js/main.515f9641.chunk.js.map",
+    "runtime-main.js": "/google-home-react/static/js/runtime-main.2a9c8c5b.js",
+    "runtime-main.js.map": "/google-home-react/static/js/runtime-main.2a9c8c5b.js.map",
+    "static/js/2.a6aefd35.chunk.js": "/google-home-react/static/js/2.a6aefd35.chunk.js",
+    "static/js/2.a6aefd35.chunk.js.map": "/google-home-react/static/js/2.a6aefd35.chunk.js.map",
+    "index.html": "/google-home-react/index.html",
+    "static/css/main.f7c1998c.chunk.css.map": "/google-home-react/static/css/main.f7c1998c.chunk.css.map",
+    "static/js/2.a6aefd35.chunk.js.LICENSE.txt": "/google-home-react/static/js/2.a6aefd35.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2a9c8c5b.js",
+    "static/js/2.a6aefd35.chunk.js",
+    "static/css/main.f7c1998c.chunk.css",
+    "static/js/main.515f9641.chunk.js"
+  ]
+}
