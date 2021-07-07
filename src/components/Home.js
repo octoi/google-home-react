@@ -45,8 +45,8 @@ const Search = styled.div`
 
 const SearchIcon = styled.div`
 	color: #9aa0a6;
-	height: 30px;
-	width: 30px;
+	height: 24px;
+	width: 24px;
 	padding-right: 10px;
 	display: flex;
 	align-items: center;
@@ -56,7 +56,20 @@ const SearchIcon = styled.div`
 	}
 `;
 
-const SearchInput = styled.input``;
+const SearchInput = styled.input`
+	display: flex;
+	flex: 1;
+	height: 40px;
+	background-color: transparent;
+	border: none;
+	margin: 0;
+	padding: 0;
+	color: rgba(0, 0, 0, 0.87);
+	word-wrap: break-word;
+	outline: none;
+	height: 34px;
+	font-size: 16px;
+`;
 
 const MicIcon = styled.div`
 	display: flex;
