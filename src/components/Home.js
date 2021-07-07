@@ -6,7 +6,19 @@ const Container = styled.div`
 	flex-direction: column;
 `
 
-const LogoSection = styled.div``
+const LogoSection = styled.div`
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	min-height: 290px;
+	height: calc(100% - 560px);
+
+	img {
+		width: 272px;
+		height: 92px;
+		margin-top: auto;
+	}
+`
 
 const SearchSection = styled.div``;
 const Form = styled.form``;
