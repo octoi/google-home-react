@@ -90,7 +90,31 @@ const MicIcon = styled.div`
 	}
 `;
 
-const ButtonSection = styled.div``;
+const ButtonSection = styled.div`
+	display: flex;
+	justify-content: center;
+	height: 70px;
+	padding-top: 18px;
+	top: 3px;
+	z-index: 0;
+
+	button {
+		background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: Roboto, arial, sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+	}
+`;
 
 const Home = () => {
 	return (
