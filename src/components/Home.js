@@ -27,8 +27,6 @@ const SearchSection = styled.div`
 	flex-direction: column;
 `;
 
-const Form = styled.form``;
-
 const Search = styled.div`
 	display: flex;
   align-items: center;
@@ -45,15 +43,15 @@ const Search = styled.div`
 
 const SearchIcon = styled.div`
 	color: #9aa0a6;
-	height: 24px;
-	width: 24px;
-	padding-right: 10px;
-	display: flex;
-	align-items: center;
-
-	& svg {
-		fill: #9aa0a6;
-	}
+  height: 30px;
+  width: 30px;
+  padding-right: 10px;
+  display: flex;
+  align-items: center;
+	
+  & svg {
+    fill: #9aa0a6;
+  }	
 `;
 
 const SearchInput = styled.input`
@@ -126,7 +124,7 @@ const Home = () => {
 				/>
 			</LogoSection>
 			<SearchSection>
-				<Form action='/' method='GET' role='search'>
+				<form action='/' method='GET' role='search'>
 					<Search>
 						<SearchIcon>
 							<svg
@@ -160,7 +158,7 @@ const Home = () => {
 							</svg>
 						</MicIcon>
 					</Search>
-				</Form>
+				</form>
 				<ButtonSection>
 					<button>Google Search</button>
 					<button>I'm Feeling Lucky</button>
