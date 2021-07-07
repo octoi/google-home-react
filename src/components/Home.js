@@ -42,8 +42,22 @@ const Search = styled.div`
   margin: 0 auto;
   max-width: 584px;
 `;
-const SearchIcon = styled.div``;
+
+const SearchIcon = styled.div`
+	color: #9aa0a6;
+	height: 30px;
+	width: 30px;
+	padding-right: 10px;
+	display: flex;
+	align-items: center;
+
+	& svg {
+		fill: #9aa0a6;
+	}
+`;
+
 const SearchInput = styled.input``;
+
 const MicIcon = styled.div``;
 const ButtonSection = styled.div``;
 
