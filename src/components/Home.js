@@ -6,10 +6,17 @@ const Container = styled.div`
 	flex-direction: column;
 `
 
+const LogoSection = styled.div``
+
 const Home = () => {
 	return (
 		<Container>
-			<h2>Hello World</h2>
+			<LogoSection>
+				<img
+					src='https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png'
+					alt='google-logo'
+				/>
+			</LogoSection>
 		</Container>
 	)
 }
