@@ -10,9 +10,27 @@ const Nav = styled.nav`
 	font-size: 14px;
 `;
 
-const LeftLinks = styled.div``;
-const RightLinks = styled.div``;
-const NavLinks = styled(Link)``;
+const LeftLinks = styled.div`
+	padding: 10px;
+	margin-left: 10px;
+`;
+const RightLinks = styled.div`
+	padding: 10px;
+	margin-right: 16px;
+	display: flex;
+	align-items: center;
+`;
+
+const NavLinks = styled(Link)`
+	padding: 0 8px;
+	text-decoration: none;
+	color: #000;
+
+	svg {
+		width: 24px;
+		height: 24px;
+	}
+`;
 
 const Navbar = () => {
 	return (
